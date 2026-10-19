@@ -254,7 +254,7 @@ git push
 ## Checklist Sebelum Go-Live
 
 - [ ] Test form submission → konfirmasi baris baru di Google Sheets
-- [ ] Konfigurasi tag GTM (Google Tag + GA4 Event) dan publish container
+- [x] Konfigurasi tag GTM (Google Tag + GA4 Event) dan publish container ✅ Verified via GA4 DebugView
 - [ ] Deploy ke Vercel
 - [ ] Verifikasi GTM Preview Mode di URL live
 - [ ] Verifikasi GA4 DebugView

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background circle — navy -->
+  <circle cx="16" cy="16" r="16" fill="#0F2D52"/>
+  <!-- "S" monogram — white, Poppins-style rounded letterform -->
+  <text
+    x="16"
+    y="21.5"
+    font-family="'Poppins', 'Arial Rounded MT Bold', 'Helvetica Neue', Arial, sans-serif"
+    font-size="18"
+    font-weight="700"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    letter-spacing="-0.5"
+  >S</text>
+  <!-- Mint accent dot — top-right quadrant -->
+  <circle cx="24" cy="8" r="4" fill="#6ED6A7"/>
+</svg>

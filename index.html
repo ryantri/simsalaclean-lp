@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simsalaclean — Segera Hadir di Jakarta Selatan</title>
+    <meta
+      name="description"
+      content="Simsalaclean hadir dengan visi membuat urusan laundry jadi lebih praktis. Daftar sekarang untuk mendapatkan akses lebih awal."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Simsalaclean — Segera Hadir di Jakarta Selatan" />
+    <meta
+      property="og:description"
+      content="Layanan laundry online yang bikin rutinitas harianmu jadi lebih simpel."
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="favicon.svg" sizes="any" />
+    <!--
+      PNG fallback (favicon-32.png) dan Apple Touch Icon (favicon-180.png)
+      dapat ditambahkan ke root directory setelah asset tersedia.
+      Referensi disiapkan di bawah — hapus komentar setelah file tersedia:
+
+      <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
+      <link rel="apple-touch-icon" href="favicon-180.png" />
+    -->
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TT5MX4KC');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TT5MX4KC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <!-- Wordmark -->
+        <a href="#top" class="brand-wordmark" aria-label="Simsalaclean — Kembali ke atas">
+          Simsala<span class="brand-accent">clean</span>
+        </a>
+
+        <!-- Coming-soon badge -->
+        <span class="coming-soon-badge" aria-label="Status: Segera Hadir">SEGERA HADIR</span>
+
+        <!-- Nav -->
+        <nav class="header-nav" aria-label="Navigasi utama">
+          <ul role="list">
+            <li><a href="#benefits">Keunggulan</a></li>
+            <li><a href="#how-it-works">Cara Kerja</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li>
+              <a href="#hero-form" class="nav-cta">Daftar Sekarang</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Mobile hamburger (visual only for now) -->
+        <button class="nav-toggle" aria-label="Buka menu navigasi" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===================== HERO ===================== -->
+      <section class="hero-section" id="hero">
+        <div class="container hero-inner">
+
+          <!-- Left column: Copy -->
+          <div class="hero-content">
+            <p class="hero-eyebrow">SEGERA HADIR DI JAKARTA SELATAN</p>
+            <h1 class="hero-headline">
+              Urusan Laundry,<br />Biar Kami yang<br />Bikin Lebih Simpel.
+            </h1>
+            <p class="hero-body">
+              Kesibukan sehari-hari sudah cukup menyita waktu. Simsalaclean hadir dengan visi
+              membuat urusan laundry jadi lebih praktis, supaya kamu punya lebih banyak waktu
+              untuk hal-hal yang penting.
+            </p>
+          </div>
+
+          <!-- Right column: Lead Form -->
+          <div class="hero-form-col" id="hero-form">
+            <div class="lead-form-wrapper">
+              <p class="form-label-heading">Jadi yang Pertama Tahu!</p>
+              <p class="form-description">
+                Isi data singkat di bawah ini untuk bergabung dalam daftar calon pelanggan
+                Simsalaclean.
+              </p>
+              <form
+                class="lead-form"
+                id="leadForm"
+                novalidate
+                aria-label="Formulir daftar awal Simsalaclean"
+              >
+                <div class="form-group">
+                  <label for="fullName">Nama Lengkap</label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Masukkan nama lengkapmu"
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="instagramUsername">Username Instagram</label>
+                  <div class="input-with-prefix">
+                    <span class="input-prefix" aria-hidden="true">@</span>
+                    <input
+                      type="text"
+                      id="instagramUsername"
+                      name="instagramUsername"
+                      placeholder="usernamekamu"
+                      autocomplete="off"
+                      required
+                    />
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-hero-submit">
+                  Daftar Sekarang
+                </button>
+                <p class="form-privacy-note">
+                  Dengan mendaftar, kamu menyetujui
+                  <a href="#kebijakan-privasi"
+                     class="privacy-link"
+                     id="privacyLinkForm"
+                     aria-haspopup="dialog"
+                  >Kebijakan Privasi</a> kami.
+                </p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===================== BENEFITS ===================== -->
+      <section class="benefits-section" id="benefits" aria-labelledby="benefits-heading">
+        <div class="container">
+
+          <!-- Section header -->
+          <div class="section-header">
+            <h2 id="benefits-heading" class="section-title">
+              Lebih Banyak Waktu untuk Hal yang Penting.
+            </h2>
+            <p class="section-supporting">
+              Kami sedang menyiapkan pengalaman laundry yang lebih praktis untuk menemani
+              rutinitas sehari-harimu.
+            </p>
+          </div>
+
+          <!-- Benefit cards -->
+          <ul class="benefits-grid" role="list">
+
+            <!-- Card 1: Time -->
+            <li class="benefit-card">
+              <div class="benefit-icon-wrap" aria-hidden="true">
+                <svg
+                  class="benefit-icon"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <!-- Clock face -->
+                  <circle cx="24" cy="24" r="16" stroke="#6ED6A7" stroke-width="2.25"/>
+                  <!-- Clock hands -->
+                  <path d="M24 14v10l6 4" stroke="#6ED6A7" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                  <!-- Sparkle top-right -->
+                  <path d="M36 8l1 2.5 2.5 1-2.5 1L36 15l-1-2.5L32.5 11.5l2.5-1L36 8z" stroke="#6ED6A7" stroke-width="1.5" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="benefit-content">
+                <h3 class="benefit-heading">Lebih Banyak Waktu untuk Dirimu</h3>
+                <p class="benefit-copy">
+                  Kurangi waktu yang perlu kamu pikirkan untuk urusan laundry dan gunakan
+                  waktumu untuk hal-hal yang lebih berarti.
+                </p>
+              </div>
+            </li>
+
+            <!-- Card 2: Routine -->
+            <li class="benefit-card">
+              <div class="benefit-icon-wrap" aria-hidden="true">
+                <svg
+                  class="benefit-icon"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <!-- Calendar base -->
+                  <rect x="8" y="12" width="32" height="28" rx="5" stroke="#6ED6A7" stroke-width="2.25"/>
+                  <!-- Calendar top bar -->
+                  <path d="M8 20h32" stroke="#6ED6A7" stroke-width="2.25" stroke-linecap="round"/>
+                  <!-- Pins -->
+                  <path d="M16 8v6M32 8v6" stroke="#6ED6A7" stroke-width="2.25" stroke-linecap="round"/>
+                  <!-- Check mark inside -->
+                  <path d="M16 28l4 4 8-8" stroke="#6ED6A7" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="benefit-content">
+                <h3 class="benefit-heading">Dirancang untuk Hari yang Sibuk</h3>
+                <p class="benefit-copy">
+                  Kami ingin menghadirkan pengalaman laundry yang lebih praktis dan sesuai
+                  dengan ritme kehidupanmu yang dinamis.
+                </p>
+              </div>
+            </li>
+
+            <!-- Card 3: Simplicity -->
+            <li class="benefit-card">
+              <div class="benefit-icon-wrap" aria-hidden="true">
+                <svg
+                  class="benefit-icon"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <!-- T-shirt outline -->
+                  <path
+                    d="M14 10l-8 8 6 2v18h24V20l6-2-8-8c0 0-3 4-10 4S14 10 14 10z"
+                    stroke="#6ED6A7"
+                    stroke-width="2.25"
+                    stroke-linejoin="round"
+                  />
+                  <!-- Subtle sparkle on shirt -->
+                  <path d="M24 24v6M21 27h6" stroke="#6ED6A7" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="benefit-content">
+                <h3 class="benefit-heading">Rutinitas yang Lebih Simpel</h3>
+                <p class="benefit-copy">
+                  Karena urusan laundry seharusnya tidak membuat daftar pekerjaanmu terasa
+                  semakin panjang.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+
+      <!-- ===================== HOW IT WORKS ===================== -->
+      <section class="hiw-section" id="how-it-works" aria-labelledby="hiw-heading">
+        <div class="container">
+
+          <!-- Section header -->
+          <div class="section-header">
+            <h2 id="hiw-heading" class="section-title">
+              Laundry Lebih Simpel,<br />Selangkah Demi Selangkah.
+            </h2>
+            <p class="section-supporting">
+              Mulai dari waitlist hingga peluncuran — begini cara kamu bisa menjadi bagian
+              dari Simsalaclean sejak awal.
+            </p>
+          </div>
+
+          <!-- Steps -->
+          <ol class="hiw-steps" role="list">
+
+            <!-- Step 1 -->
+            <li class="hiw-step">
+              <div class="hiw-step-indicator">
+                <span class="hiw-step-number" aria-hidden="true">01</span>
+                <!-- Connector line — hidden on last step via CSS -->
+                <span class="hiw-connector" aria-hidden="true"></span>
+              </div>
+              <div class="hiw-step-content">
+                <h3 class="hiw-step-heading">Daftar di Waitlist</h3>
+                <p class="hiw-step-copy">
+                  Daftarkan nama lengkap dan username Instagram untuk mendapatkan update
+                  terbaru tentang Simsalaclean.
+                </p>
+              </div>
+            </li>
+
+            <!-- Step 2 -->
+            <li class="hiw-step">
+              <div class="hiw-step-indicator">
+                <span class="hiw-step-number" aria-hidden="true">02</span>
+                <span class="hiw-connector" aria-hidden="true"></span>
+              </div>
+              <div class="hiw-step-content">
+                <h3 class="hiw-step-heading">Ikuti Perkembangannya</h3>
+                <p class="hiw-step-copy">
+                  Dapatkan informasi terbaru mengenai persiapan peluncuran dan detail
+                  layanan kami.
+                </p>
+              </div>
+            </li>
+
+            <!-- Step 3 -->
+            <li class="hiw-step">
+              <div class="hiw-step-indicator">
+                <span class="hiw-step-number" aria-hidden="true">03</span>
+                <!-- No connector after last step -->
+              </div>
+              <div class="hiw-step-content">
+                <h3 class="hiw-step-heading">Bersiap Menyambut Peluncuran</h3>
+                <p class="hiw-step-copy">
+                  Jadilah salah satu yang pertama mengetahui kapan Simsalaclean resmi
+                  tersedia.
+                </p>
+              </div>
+            </li>
+
+          </ol>
+        </div>
+      </section>
+
+      <!-- ===================== FAQ ===================== -->
+      <section class="faq-section" id="faq" aria-labelledby="faq-heading">
+        <div class="container faq-inner">
+
+          <!-- Left: heading -->
+          <div class="faq-header">
+            <h2 id="faq-heading" class="faq-title">Punya Pertanyaan?</h2>
+          </div>
+
+          <!-- Right: accordion -->
+          <div class="faq-list" role="list">
+
+            <!-- Item 1 -->
+            <div class="faq-item" role="listitem">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-1"
+                id="faq-btn-1"
+                type="button"
+              >
+                <span>Apa itu Simsalaclean?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div
+                class="faq-answer"
+                id="faq-answer-1"
+                role="region"
+                aria-labelledby="faq-btn-1"
+                hidden
+              >
+                <p>
+                  Simsalaclean adalah layanan laundry online yang sedang dipersiapkan untuk
+                  menghadirkan pengalaman laundry yang lebih praktis bagi masyarakat di
+                  Jakarta Selatan.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="faq-item" role="listitem">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-2"
+                id="faq-btn-2"
+                type="button"
+              >
+                <span>Apakah Simsalaclean sudah bisa digunakan?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div
+                class="faq-answer"
+                id="faq-answer-2"
+                role="region"
+                aria-labelledby="faq-btn-2"
+                hidden
+              >
+                <p>
+                  Belum. Simsalaclean masih dalam tahap persiapan peluncuran. Bergabunglah
+                  dalam waitlist untuk mendapatkan informasi terbaru menjelang peluncuran
+                  resmi.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="faq-item" role="listitem">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-3"
+                id="faq-btn-3"
+                type="button"
+              >
+                <span>Bagaimana cara mendapatkan update terbaru?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div
+                class="faq-answer"
+                id="faq-answer-3"
+                role="region"
+                aria-labelledby="faq-btn-3"
+                hidden
+              >
+                <p>
+                  Kamu bisa mendaftarkan nama lengkap dan username Instagram melalui formulir
+                  di halaman ini untuk mendapatkan informasi mengenai perkembangan
+                  Simsalaclean.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="faq-item" role="listitem">
+              <button
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-4"
+                id="faq-btn-4"
+                type="button"
+              >
+                <span>Kapan Simsalaclean akan diluncurkan?</span>
+                <span class="faq-icon" aria-hidden="true">
+                  <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+              <div
+                class="faq-answer"
+                id="faq-answer-4"
+                role="region"
+                aria-labelledby="faq-btn-4"
+                hidden
+              >
+                <p>
+                  Kami sedang mempersiapkan peluncuran Simsalaclean. Informasi lebih lanjut
+                  akan kami bagikan ketika detailnya sudah tersedia.
+                </p>
+              </div>
+            </div>
+
+          </div><!-- /.faq-list -->
+        </div>
+      </section>
+
+      <!-- ===================== FINAL CTA ===================== -->
+      <section class="cta-section" id="cta" aria-labelledby="cta-heading">
+        <div class="container cta-inner">
+          <h2 id="cta-heading" class="cta-headline">Jangan Sampai Ketinggalan!</h2>
+          <p class="cta-body">
+            Pengalaman laundry yang lebih praktis sedang kami persiapkan. Bergabunglah dalam
+            waitlist untuk menjadi salah satu yang pertama mendapatkan update tentang
+            Simsalaclean.
+          </p>
+          <a href="#hero-form" class="btn btn-cta" aria-label="Daftar Sekarang — kembali ke formulir">
+            Daftar Sekarang
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer" aria-label="Footer">
+      <div class="container footer-inner">
+        <p class="footer-brand">Simsala<span class="brand-accent">clean</span></p>
+        <p class="footer-status">
+          Layanan ini masih dalam tahap&nbsp;<strong>pre-launch</strong> dan belum tersedia
+          untuk digunakan.
+        </p>
+        <p class="footer-links">
+          <a href="#kebijakan-privasi"
+             class="footer-link"
+             id="privacyLinkFooter"
+             aria-haspopup="dialog"
+          >Kebijakan Privasi</a>
+        </p>
+        <p class="footer-copy">
+          &copy; <span id="currentYear"></span> Simsalaclean. Semua hak dilindungi.
+        </p>
+      </div>
+    </footer>
+
+    <!-- ===================== THANK YOU MODAL ===================== -->
+    <div
+      class="modal-overlay"
+      id="thankYouModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+      hidden
+    >
+      <div class="modal-card">
+        <div class="modal-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" fill="none">
+            <circle cx="20" cy="20" r="20" fill="#E8F4F1"/>
+            <path d="M12 20l6 6 10-12" stroke="#6ED6A7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h2 id="modalTitle" class="modal-title">Pendaftaranmu Berhasil!</h2>
+        <p class="modal-body">
+          Terima kasih sudah tertarik dengan Simsalaclean! Kami akan membagikan update
+          terbaru menjelang peluncuran resmi.
+        </p>
+        <button class="btn btn-primary" id="modalClose">Mengerti</button>
+      </div>
+    </div>
+
+    <!-- ===================== PRIVACY POLICY MODAL ===================== -->
+    <div
+      class="modal-overlay privacy-modal-overlay"
+      id="privacyModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="privacyModalTitle"
+      hidden
+    >
+      <div class="modal-card privacy-modal-card">
+
+        <!-- Header -->
+        <div class="privacy-modal-header">
+          <h2 id="privacyModalTitle" class="privacy-modal-title">
+            Kebijakan Privasi
+          </h2>
+          <button
+            class="privacy-modal-close"
+            id="privacyModalClose"
+            type="button"
+            aria-label="Tutup Kebijakan Privasi"
+          >
+            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Scrollable body -->
+        <div class="privacy-modal-body" tabindex="0">
+
+          <p class="privacy-meta">Berlaku sejak: <time>2025</time></p>
+          <p class="privacy-meta privacy-meta--note">
+            Dokumen ini adalah draft kebijakan privasi untuk tahap pre-launch Simsalaclean.
+            Kebijakan ini akan diperbarui seiring perkembangan layanan.
+          </p>
+
+          <h3>1. Informasi yang Kami Kumpulkan</h3>
+          <p>
+            Melalui formulir pendaftaran waitlist di halaman ini, kami mengumpulkan:
+          </p>
+          <ul>
+            <li><strong>Nama Lengkap</strong> — untuk mengidentifikasi kamu sebagai calon pelanggan.</li>
+            <li><strong>Username Instagram</strong> — sebagai saluran komunikasi menjelang peluncuran Simsalaclean.</li>
+          </ul>
+          <p>
+            Kami tidak mengumpulkan alamat email, nomor telepon, alamat fisik, atau informasi
+            pembayaran pada tahap ini.
+          </p>
+
+          <h3>2. Tujuan Pengumpulan Informasi</h3>
+          <p>Informasi yang kamu berikan digunakan untuk:</p>
+          <ul>
+            <li>Mengelola daftar calon pelanggan (waitlist) Simsalaclean.</li>
+            <li>Mengirimkan update terkait perkembangan dan peluncuran layanan.</li>
+            <li>Menghubungi kamu melalui Instagram ketika Simsalaclean siap diluncurkan.</li>
+          </ul>
+          <p>
+            Kami tidak akan menggunakan informasimu untuk tujuan di luar yang disebutkan di atas
+            tanpa persetujuanmu.
+          </p>
+
+          <h3>3. Cara Informasi Digunakan</h3>
+          <p>
+            Data yang masuk melalui formulir disimpan secara terenkripsi menggunakan layanan
+            Google Sheets yang dikelola oleh tim Simsalaclean. Akses ke data dibatasi hanya
+            untuk pihak yang bertanggung jawab atas pengelolaan waitlist.
+          </p>
+          <p>
+            Kami tidak menjual, menyewakan, atau membagikan informasi pribadimu kepada pihak
+            ketiga untuk tujuan komersial.
+          </p>
+
+          <h3>4. Penyimpanan dan Perlindungan Data</h3>
+          <p>
+            Informasi disimpan di Google Sheets dengan kontrol akses yang dibatasi. Google
+            menerapkan langkah-langkah keamanan standar industri untuk melindungi data yang
+            disimpan di platformnya.
+          </p>
+          <p>
+            Kami akan menyimpan data kamu selama masa pre-launch dan periode awal
+            peluncuran layanan. Data yang tidak lagi diperlukan akan dihapus.
+          </p>
+
+          <h3>5. Hak Kamu atas Data Pribadi</h3>
+          <p>Kamu berhak untuk:</p>
+          <ul>
+            <li><strong>Mengakses</strong> — mengetahui data apa saja yang kami simpan tentangmu.</li>
+            <li><strong>Mengoreksi</strong> — meminta pembaruan jika data yang tersimpan tidak akurat.</li>
+            <li><strong>Menghapus</strong> — meminta penghapusan data pribadimu dari daftar kami.</li>
+          </ul>
+          <p>
+            Untuk mengajukan permintaan tersebut, hubungi kami melalui saluran kontak yang
+            tersedia di bawah.
+          </p>
+
+          <h3>6. Kontak</h3>
+          <p>
+            Jika kamu memiliki pertanyaan mengenai kebijakan privasi ini atau ingin mengajukan
+            permintaan terkait data pribadimu, silakan hubungi kami melalui:
+          </p>
+          <ul>
+            <li>
+              Instagram:
+              <strong>[Username Instagram Simsalaclean — akan diperbarui]</strong>
+            </li>
+            <li>
+              Email:
+              <strong>[Alamat email — akan diperbarui setelah tersedia]</strong>
+            </li>
+          </ul>
+          <p class="privacy-meta privacy-meta--note">
+            Informasi kontak di atas akan dilengkapi sebelum layanan resmi diluncurkan.
+          </p>
+
+        </div><!-- /.privacy-modal-body -->
+      </div><!-- /.privacy-modal-card -->
+    </div><!-- /#privacyModal -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

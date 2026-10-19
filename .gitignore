@@ -1,0 +1,49 @@
+# ─────────────────────────────────────────
+# Simsalaclean — .gitignore
+# ─────────────────────────────────────────
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment files — never commit secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Node (if added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs (if a build tool is added later)
+dist/
+build/
+.next/
+.nuxt/
+.output/
+.vercel/
+
+# Logs
+*.log
+logs/
+
+# OS-generated thumbnails
+*.tmp
+*.bak

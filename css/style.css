@@ -288,6 +288,18 @@ input {
 .hero-section {
   padding-block: var(--space-12) var(--space-16);
   overflow: hidden;
+  /* Background image with cream overlay for text readability */
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(250, 248, 244, 0.92) 0%,
+      rgba(250, 248, 244, 0.75) 45%,
+      rgba(250, 248, 244, 0.55) 100%
+    ),
+    url("public/assets/hero image.png");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
 }
 
 .hero-inner {
@@ -339,15 +351,6 @@ input {
   line-height: 1.75;
   max-width: 42ch;
   margin-bottom: 0;
-}
-
-/* Hero illustration image */
-.hero-image {
-  width: 100%;
-  max-width: 460px;
-  height: auto;
-  margin-top: var(--space-8);
-  border-radius: var(--radius-lg);
 }
 
 /* ─────────────────────────────────────────
@@ -1236,12 +1239,6 @@ input {
     margin-inline: auto;
   }
 
-  /* Hero image — center on tablet */
-  .hero-image {
-    max-width: 400px;
-    margin-inline: auto;
-  }
-
   .hero-form-col {
     max-width: 520px;
     margin-inline: auto;
@@ -1331,10 +1328,16 @@ input {
     margin-bottom: 0;
   }
 
-  /* Hero image — smaller on mobile to keep form above fold */
-  .hero-image {
-    max-width: 320px;
-    margin-top: var(--space-6);
+  /* Hero background — stronger overlay on mobile for readability */
+  .hero-section {
+    background-image:
+      linear-gradient(
+        to bottom,
+        rgba(250, 248, 244, 0.95) 0%,
+        rgba(250, 248, 244, 0.88) 100%
+      ),
+      url("public/assets/hero image.png");
+    background-position: center top;
   }
 
   /* Header logo — slightly smaller on mobile */

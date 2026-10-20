@@ -192,6 +192,19 @@ input {
   flex-shrink: 0;
 }
 
+/* Header logo image */
+.brand-logo-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.brand-logo {
+  height: 32px;
+  width: auto;
+}
+
 .coming-soon-badge {
   display: inline-flex;
   align-items: center;
@@ -326,6 +339,15 @@ input {
   line-height: 1.75;
   max-width: 42ch;
   margin-bottom: 0;
+}
+
+/* Hero illustration image */
+.hero-image {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  margin-top: var(--space-8);
+  border-radius: var(--radius-lg);
 }
 
 /* ─────────────────────────────────────────
@@ -937,6 +959,12 @@ input {
   letter-spacing: -0.02em;
 }
 
+/* Footer logo image */
+.footer-logo {
+  height: 28px;
+  width: auto;
+}
+
 .footer-status {
   font-size: var(--text-sm);
   color: var(--color-navy-80);
@@ -1208,6 +1236,12 @@ input {
     margin-inline: auto;
   }
 
+  /* Hero image — center on tablet */
+  .hero-image {
+    max-width: 400px;
+    margin-inline: auto;
+  }
+
   .hero-form-col {
     max-width: 520px;
     margin-inline: auto;
@@ -1295,6 +1329,17 @@ input {
   .hero-body {
     font-size: var(--text-sm);
     margin-bottom: 0;
+  }
+
+  /* Hero image — smaller on mobile to keep form above fold */
+  .hero-image {
+    max-width: 320px;
+    margin-top: var(--space-6);
+  }
+
+  /* Header logo — slightly smaller on mobile */
+  .brand-logo {
+    height: 28px;
   }
 
   /* Form card */
